@@ -1,0 +1,8 @@
+/* src/components/ImageGallery.css */
+.carousel-item img {
+    position: relative;
+    max-height: 400px; /* Max height for images */
+    object-fit: cover; /* Cover the space while maintaining aspect ratio */
+    z-index: -1;
+  }
+  
