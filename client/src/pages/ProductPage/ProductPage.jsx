@@ -51,7 +51,7 @@ function ProductPage() {
               </Form.Select>
             </Form.Group>
             <div className="button-container"> {/* Button container for alignment */}
-              <Button variant="primary">Add to Cart</Button>
+              <Button variant="primary" onClick={()=> navigation("/checkout")}>Buy Now</Button>
               <Button onClick={() => navigation(-1)} variant="warning">Back</Button>
               <ShareButton product={product} className="share-btn" /> {/* Added class for styling */}
             </div>

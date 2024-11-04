@@ -4,6 +4,7 @@ import ProductPage from './pages/ProductPage/ProductPage'; // Import ProductPage
 import About from './pages/About/About'; // Import About page component
 import Contact from './pages/Contact/Contact'; // Import Contact page component
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS for styling
+import CheckoutPage from './pages/CheckOutPage/CheckOutPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/products/:id" element={<ProductPage />} /> {/* Route for ProductPage with dynamic product ID */}
         <Route path="/about" element={<About />} /> {/* Route for About page */}
         <Route path="/contact" element={<Contact />} /> {/* Route for Contact page */}
+        <Route path="/checkout" element={<CheckoutPage />} /> 
       </Routes>
     </Router>
   );

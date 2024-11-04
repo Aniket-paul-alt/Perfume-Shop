@@ -1,0 +1,18 @@
+/* CheckoutPage.css */
+.container {
+    padding-top: 20px;
+  }
+  
+  h2, h4 {
+    font-weight: bold;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
